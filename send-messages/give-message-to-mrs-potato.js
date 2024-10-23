@@ -1,4 +1,5 @@
-
+const sayHelloObject = require('./say-hello-to');
+const sayHelloTo = sayHelloObject.sayHelloTo;
 
 function giveMessageToMrsPotato(message) {
   sayHelloTo("Mrs. Potato");
